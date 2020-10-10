@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: 90px;
+    border-top: 5px solid #572EE5;
+    padding: 0 156px;
+    .logo {
+        width: 59.1px;
+        height: 59.1px;
+        margin-top: 18px;
+        float: left;
+        display: block;
+    }
+    nav {
+        height: 90px;
+        .bar-menu {
+            float: right;
+        }
+        li {
+            float: left;
+            font-size: 14px;
+            margin-top: 35px;
+            padding: 0 25px;
+            :hover {
+                border-bottom: solid #50E3C2 2px;
+            }
+            a {
+             text-align: center;
+             font-weight: bold;
+             letter-spacing: 0;
+             color: #572EE5;   
+            }            
+        }
+        .btn-crear-gifo {
+            border: #572EE5 solid 1px;
+            border-radius: 50%;
+        }
+        img {
+            margin: 18px;
+            padding: 19px;
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3.3% 10.9%;
+    font-size: 13px;
+    border-bottom: solid 5px #572EE5;
+    .rrss {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        li {
+            width: 20px;
+            height: 20px;
+            margin-left: 19px;
+            img {
+                &:hover {
+                   color: #572EE5 
+                }
+                
+            }
+        }
+    }
+
+}

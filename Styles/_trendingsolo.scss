@@ -1,0 +1,17 @@
+.trends {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #572EE5;
+    font-size: 18px;
+    margin-top: 73px;
+    margin-bottom: 102px;
+    .trends-t {
+    font-weight: bold;
+    margin: auto;
+    }
+    .trends-p {
+        font-weight: 500;
+    }
+    }     

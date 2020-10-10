@@ -1,0 +1,35 @@
+#trends {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    #prevBtn {
+        margin-left: 5%;
+    }
+    #nextBtn {
+        margin-right: 5%;
+    }
+    #trendGifBox {
+        overflow: hidden;
+        overflow-y:hidden;
+        width: 80%;
+        border: solid 2px red;     
+    }
+    #carouselGifs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+    .item {
+        margin-right: 10px;
+        width: 357px;
+        height: 275px
+    }
+
+.slideBtns {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: solid 1px #572EE5;
+}

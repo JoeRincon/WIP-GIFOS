@@ -1,0 +1,25 @@
+.bloque-gifos {
+    //display: flex;
+    //flex-direction: column;
+    //flex-wrap: nowrap;
+    //align-items: center;
+    //width: 100%;
+    height: 640px;
+    background-color: #F3F5F8;
+    .div-gifos {
+        .h3-gifos {
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 65px;
+            margin-bottom: 14px;
+            color: #572EE5;
+        }
+        .p-gifos {
+            color: black;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 52px;
+        }
+    }   
+}

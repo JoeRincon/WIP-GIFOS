@@ -1,0 +1,34 @@
+.galeria-favoritos {
+    padding: 0 156px;
+    h2 {
+        color: #572EE5 ;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 38px;
+        margin-bottom: 38px;
+        height: 100%;
+    }
+    article {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 35px 29px;
+        
+    }
+    .grid-misgifos {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 35px 29px;
+    }
+    .btn-favo {
+        margin: 78px 657px;
+        text-align: center;
+        height:50px ;
+        width: 127px ;
+        border-radius: 25px;
+        border: 1px solid #572EE5;
+        color: #572EE5;
+    }
+}

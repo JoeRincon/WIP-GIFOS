@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROY GIFOS</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-proxima-nova@1.0.1/style.css">
+</head>
+<body>
+<header class="header">
+    <img class="logo" src="/assets/logo-desktop.svg" alt="logo-desktop">
+    <nav>
+        <ul class="bar-menu">
+            <li><a class="modnoc" id="modnoc" href="#modoNoc">MODO NOCTURNO</a></li>
+            <li><a href="favoritos.html">FAVORITOS</a></li>
+            <li><a href="misgifos.html">MIS GIFOS</a></li>
+            <a href="#crearGifos"><img class="btn-crear-gifo" src="/assets/button-crear-gifo.svg" alt="button-crear-gifo"></a>
+        </ul>
+    </nav>
+</header>
+<main>
+<section class="buscador">
+    <h1>
+        Inspirate, busca, guarda, y crea <br>
+        los mejores <span class="h1-gifos">GIFOS</span>
+    </h1>
+    <img src="/assets/ilustra_header.svg" alt="ilustra_header" class="img-home">
+    <form class="busca-input" id="search-form">
+        <input type="text" class="busca-text" id="search-input" placeholder="Busca GIFOS y más">
+        <a class="buscar">
+            <img class="icon-buscar" src="/assets/icon-search.svg" alt="icon-search">
+        </a>
+    </form>
+    
+</section>
+<section class="trends">
+    <p class="trends-t">Trending:</p>
+    <p class="trends-p">
+        <span class="item-trend"></span>
+        <span class="item-trend"></span>
+        <span class="item-trend"></span>
+        <span class="item-trend"></span>
+        <span class="item-trend"></span>
+    </p>
+    <h1 class="trends-ppal" id="trends-ppal"></h1>
+</section>
+<div class="container-search">
+    <div id="resulta" class="resulta">
+        <!--aca gifs busqueda-->
+    </div>
+</div>
+<button id="btnVermas" type="button">VER MÁS</button>
+
+<section class="bloque-gifos">
+    <div class="div-gifos">
+        <h3 class="h3-gifos">Trending GIFOS</h3>
+        <p class="p-gifos">Mira los ultimos GIFOS de nuestra comunidad.</p>
+    </div>
+    <div id="trends">
+        <div class="slideBtns" id="prevBtn">
+            <img src="/assets/button-left.svg" alt="back"></div>
+        <div id="trendGifBox">
+            <div class="trendGif" id="carouselGifs"  >
+                <!--Aca Gifs Trending Carousel-->
+            </div>
+        </div>
+        <div class="slideBtns" id="nextBtn">
+            <img src="/assets/button-right.svg" alt="slide"></div>
+    </div>   
+</section>
+</main>
+<footer class="footer">
+<ul class="rrss">
+    <p>Compartir en:</p>
+    <li><img src="/assets/icon_facebook.svg" alt="icon_facebook"></li>
+    <li><img src="/assets/icon-twitter.svg" alt="icon-twitter"></li>
+    <li><img src="/assets/icon_instagram.svg" alt="icon_instagram"></li>
+</ul>
+<p class="trade">© GIFOS 2020 All Rights Reserved.</p>
+</footer>
+<script src="main.js"></script>
+
+</body>
+</html>

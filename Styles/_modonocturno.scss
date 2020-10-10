@@ -1,0 +1,45 @@
+
+$bodyNoc: #37383C;
+$trendingNoc: #222326;
+$txtNoc: #FFFFFF;
+
+
+body {
+	transition: .3s ease all;
+	&.dark {
+		background: $bodyNoc;
+	}
+}
+nav {
+	
+	body.dark & {
+		a {
+			color: $txtNoc;
+		}
+		img {
+			background-color: $txtNoc;
+		}
+	}
+}
+.bloque-gifos {
+	body.dark & {
+		background-color: $trendingNoc;
+		.h3-gifos {
+			color: $txtNoc
+		}
+		.p-gifos {
+			color: $txtNoc;
+		}
+	}
+
+}
+h1 {
+	body.dark & {
+		color: $txtNoc;
+	}
+}
+p {
+	body.dark & {
+		color: $txtNoc;
+	}
+}
